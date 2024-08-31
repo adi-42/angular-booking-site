@@ -1,0 +1,32 @@
+.mylogin {
+    margin-right: 70px;
+    border: 1px solid #cbcbcb; /* Adds a border with a thickness of 2px and a black color */
+    border-radius: 20px; /* Rounds the corners of the border */
+    padding-top: 0.15px;
+    padding-inline: 1.5px;
+    display: inline-block;
+
+}
+
+.navbar-brand{
+    margin-left: 70px;
+    color: #e50456;
+    font-weight: 500;
+    font-size: 1.5rem; /* Adjust as needed for the text size */
+  display: inline-flex; /* Align items in a flex container */
+  align-items: center; 
+}
+
+.logosymbol{
+    font-weight: 200;
+    font-size: 2rem; /* Size of the symbol */
+    line-height: 0; /* Ensure the symbol height doesn't affect the line height */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin-right: 0.25rem; 
+}
+
+[class^="navbar"] {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,12 @@
+.myline{
+    border: 0;
+    height: 0.5px;
+    background: #000; /* Line color */
+    margin: 20px; /* Space above and below the line */
+}
+
+.myclasses{
+    text-align: center;
+    margin: 0px 10px; 
+    font-size: 20px;
+}

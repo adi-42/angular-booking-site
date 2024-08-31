@@ -1,0 +1,24 @@
+.content {
+    flex: 1; /* Takes up remaining space so footer is fixed to bottom*/
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    background-color: #e50456;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; /* Distributes the items evenly */
+    width: 15%;
+    margin: 80px;
+    padding: 0;
+    margin-left: auto;
+}

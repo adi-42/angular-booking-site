@@ -1,0 +1,6 @@
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let card of cards; let i = index">
+      <app-card [cardTitle]="card.type" [cardContent]="card.desc" [cardDate]="(card.date | date:'d MMM') || 'Coming Soon'" [cardAddr]="card.address"
+        [cardPrice]="card.price" [cardSize]="card.size" [cardImage]="images[i%images.length]"></app-card>
+    </div>
+  </div>

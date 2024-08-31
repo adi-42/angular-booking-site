@@ -1,0 +1,26 @@
+.card{
+    margin-top: 30px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between; /* Distributes the items evenly */
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;             /* Pushes the element to the right edge */
+}
+
+.card-detail-item {
+    display: flex;
+    align-items: center; /* Vertically centers items within the span */
+    gap: 5px;            /* Adjust gap between icon and text if needed */
+}
+
+[class^=fa-]{
+    color: #e50456;
+}
