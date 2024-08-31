@@ -5,7 +5,7 @@ import { Route, RouterLink } from '@angular/router';
 @Component({
   selector: 'app-searchbar',
   standalone: true,
-  imports: [RouterLink, NgModel],
+  imports: [RouterLink],
   templateUrl: './searchbar.component.html',
   styleUrl: './searchbar.component.css'
 })
